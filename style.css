@@ -1,0 +1,19 @@
+/*
+Theme Name: Milan Theme
+Theme URI: http://blog.mamaid.ru/milan/
+Description: The best baby theme.
+Author: Shelestova Anastasia
+Author URI: http://blog.mamaid.ru/
+Version: 0.5;
+*/
+
+/* импортирование стилей из других файдлв и скрытие их от IE/MAC \*/
+@import url('reset.css');
+/*конец импорта и скрытия от IE/MAC */
+
+
+
+/* фон */
+body{
+    background-image: url(images/labirint.png);
+}
