@@ -3,8 +3,12 @@ body{
    
     background-image: url(images/labirint.png);
     font-family: Georgia,'Times New Roman',times,serif;
-    font-size: 62.5%;
+    font-size: 100%;
     color: #444;
+    
+}
+body, html{
+    height: 100%;
 }
 /* ссылки */
 a:link, a:visited{
@@ -15,6 +19,58 @@ a:hover{
     color: #36c;
 }
 /* структура страницы */
+/*общий контейнер для всего */
+#outer{
+    margin: 0 auto;
+    max-width: 78.125em;
+    height: 100%;
+}
+#wrap{
+    width: 77.5em;
+    height: 50em;
+    min-height: 50em;
+    
+}
+/* все, что мы увидим */
+
+/* блоки с закругленными углами */
+.radiusblock{
+     border-radius: 5px;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+}
+/*добавить стили для IE */
+#header{
+    min-height: 15%;
+    width: 100%;
+    margin-bottom: 1em;
+}
+#container{
+    min-height: 75%;
+    width: 55%;
+    float: left;
+}
+#sidebar{
+    min-height: 75%;
+    width: 35%;
+    float: right;
+}
+/* распорка для прижатия футера вниз. переделать ее и футер в em или процентах */
+#rasporka {
+    height: 3em;
+}
+#footer{
+    width:100%;
+    clear:both;
+    height: 3em;
+    margin-top:-3em;
+}
+
+/* вспомошательные отладочные классы */
+
+.inborder{
+    border: 2px #444 solid;
+}
 /* самоочитска плавающих элементов */
 .group:after{
     content: ".";

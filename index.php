@@ -21,7 +21,32 @@
         <title>Малышковые откровения</title>
     </head>
     <body>
-       
+        
+        <div id="outer" >
+            <div id="wrap" class="group">
+                
+                
+                <div id="header" class="inborder radiusblock">
+                </div> <!-- header -->
+                
+                
+                <div id="container" class="inborder radiusblock">
+                    
+                </div><!-- container -->
+                
+                <div id="sidebar" class="inborder radiusblock">
+                    
+                </div><!-- sidebar -->  
+            
+            <div id="rasporka">
+                
+            </div> <!-- rasporka -->
+            </div> <!-- wrap -->
+            
+            <div id="footer" class="inborder radiusblock">
+                
+            </div> <!-- footer -->
+        </div> <!-- outer -->
         <!--    ~~~     -->
     </body>
 </html>

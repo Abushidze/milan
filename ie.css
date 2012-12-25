@@ -1,4 +1,10 @@
-
+* html #outer {
+    height: 100%;
+}
+*
+* html #wrap{
+    height: 50em;
+}
 * html .group{
     /*IE6*/
     height: 1%;
