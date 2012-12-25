@@ -1,0 +1,16 @@
+/* фон */
+body{
+   
+    background-image: url(images/labirint.png);
+    font-family: Georgia,'Times New Roman',times,serif;
+    font-size: 62.5%;
+}
+/* структура страницы */
+/* самоочитска плавающих элементов */
+.group: after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

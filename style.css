@@ -9,16 +9,12 @@ Version: 0.5;
 
 /* импортирование стилей из других файдлв и скрытие их от IE/MAC \*/
 @import url('reset.css');
+@import url('master.css');
+@import url('ie.css');
 /*конец импорта и скрытия от IE/MAC */
 
 
-
-/* фон */
-body{
-    background-image: url(images/labirint.png);
-}
-/*
-                                                                                                         
+/*                                                                                                         
                                                                                                             
                                                                                                             
                                                             s29#@@HX2,     :52G@@@3XS,                      
