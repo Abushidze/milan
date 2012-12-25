@@ -4,10 +4,19 @@ body{
     background-image: url(images/labirint.png);
     font-family: Georgia,'Times New Roman',times,serif;
     font-size: 62.5%;
+    color: #444;
+}
+/* ссылки */
+a:link, a:visited{
+    color: #369;
+    outline: none;
+}
+a:hover{
+    color: #36c;
 }
 /* структура страницы */
 /* самоочитска плавающих элементов */
-.group: after{
+.group:after{
     content: ".";
     display: block;
     height: 0;
