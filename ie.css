@@ -1,10 +1,10 @@
-
-* html #wrap{
+/* пока сетка в ширину 100%, возможно из-за недоразумений с текстом придется поменять на em */
+* html #outer, #wrap{
     width: 100%;
     height: 100%;
 }
 * html #header{
-    height: 13%;
+    height: 5em;
 }
 * html #container{
     height: 70%;
@@ -13,7 +13,7 @@
     height: 70%;
 }
 * html #footer{
-    height: 3%;
+    height: 3em;
 }
 * html .group{
     /*IE6*/

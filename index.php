@@ -13,38 +13,43 @@
         <link rel="alternate" type="text/html" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
         <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-        
-        <?php wp_get_archives('type=monthly&format=link');?>
+
+        <?php wp_get_archives('type=monthly&format=link'); ?>
         <?php // comments_popup_script(); // по умолчанию выключен ?>
-        <?php wp_head();?>
-        
+        <?php wp_head(); ?>
+
         <title>Малышковые откровения</title>
     </head>
     <body>
+        <div id="outer">
+
+            <div id="wrap" class="group">
 
 
-        <div id="wrap" class="group">
+                <div id="header" class="radiusblock">
+                    <a href="#"><h1>Дневник маленького проказника</h1></a> <!-- проставить ссылку -->
+
+                </div> <!-- header -->
 
 
-            <div id="header" class="inborder radiusblock">
-               
-            </div> <!-- header -->
+                <div id="container" class="radiusblock">
 
+                </div><!-- container -->
 
-            <div id="container" class="inborder radiusblock">
+                <div id="sidebar" class="radiusblock">
 
-            </div><!-- container -->
+                </div><!-- sidebar -->  
+                
+                <!-- div для прижатия footer вниз -->
+                <div id="footerpalce">
 
-            <div id="sidebar" class="inborder radiusblock">
+                </div> <!-- footerpalce -->
 
-            </div><!-- sidebar -->  
-            <div id="footer" class="inborder radiusblock">
+            </div> <!-- wrap -->
+            <div id="footer" class="radiusblock">
 
             </div> <!-- footer -->
-
-        </div> <!-- wrap -->
-
-
+        </div> <!-- outer -->
 
         <!--    ~~~     -->
     </body>
