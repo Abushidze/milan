@@ -20,16 +20,12 @@ a:hover{
 }
 /* структура страницы */
 /*общий контейнер для всего */
-#outer{
-    margin: 0 auto;
-    max-width: 78.125em;
-    height: 100%;
-}
+
 #wrap{
-    width: 77.5em;
-    height: 50em;
-    min-height: 50em;
     
+    max-width: 98%;
+    margin-left: 0.625em;
+    height: 100%;
 }
 /* все, что мы увидим */
 
@@ -41,29 +37,30 @@ a:hover{
 }
 /*добавить стили для IE */
 #header{
-    min-height: 15%;
     width: 100%;
-    margin-bottom: 1em;
+    min-height: 13%;
+    margin-bottom: 3em;
 }
 #container{
-    min-height: 75%;
+    
     width: 55%;
     float: left;
+    min-height: 70%;
+    margin-bottom: 3em;
 }
 #sidebar{
-    min-height: 75%;
     width: 35%;
     float: right;
+    min-height: 70%;
+    margin-bottom: 3em;
 }
-/* распорка для прижатия футера вниз. переделать ее и футер в em или процентах */
-#rasporka {
-    height: 3em;
-}
+
+
 #footer{
     width:100%;
     clear:both;
-    height: 3em;
-    margin-top:-3em;
+    min-height: 3%;
+    
 }
 
 /* вспомошательные отладочные классы */

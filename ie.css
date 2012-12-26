@@ -1,9 +1,19 @@
-* html #outer {
+
+* html #wrap{
+    width: 98%;
     height: 100%;
 }
-*
-* html #wrap{
-    height: 50em;
+* html #header{
+    height: 13%;
+}
+* html #container{
+    height: 70%;
+}
+* html #sidebar{
+    height: 70%;
+}
+* html #footer{
+    height: 3%;
 }
 * html .group{
     /*IE6*/
